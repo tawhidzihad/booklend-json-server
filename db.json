@@ -37,22 +37,18 @@
 	"categories": [
 		{
 			"id": "01",
-			"category_name": "Select Category"
-		},
-		{
-			"id": "02",
 			"category_name": "Story"
 		},
 		{
-			"id": "03",
+			"id": "02",
 			"category_name": "Tech"
 		},
 		{
-			"id": "04",
+			"id": "03",
 			"category_name": "Science"
 		},
 		{
-			"id": "05",
+			"id": "04",
 			"category_name": "History"
 		}
 	],
