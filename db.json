@@ -1,137 +1,4 @@
 {
-	"categories": [
-		{
-			"id": 1,
-			"category": "Story"
-		},
-		{
-			"id": 2,
-			"category": "Tech"
-		},
-		{
-			"id": 3,
-			"category": "Science"
-		},
-		{
-			"id": 4,
-			"category": "History"
-		},
-		{
-			"id": 5,
-			"category": "Self Development"
-		}
-	],
-	"books": [
-		{
-			"id": 1,
-			"title": "The Alchemist",
-			"author": "Paulo Coelho",
-			"description": "A philosophical story about a shepherd boy's journey to find treasure and discover his purpose.",
-			"category": "Story",
-			"available_quantity": 12,
-			"image_url": "https://covers.openlibrary.org/b/id/8275261-L.jpg"
-		},
-		{
-			"id": 2,
-			"title": "Atomic Habits",
-			"author": "James Clear",
-			"description": "A practical guide on building good habits and breaking bad ones through small daily changes.",
-			"category": "Science",
-			"available_quantity": 8,
-			"image_url": "https://covers.openlibrary.org/b/id/10594765-L.jpg"
-		},
-		{
-			"id": 3,
-			"title": "Clean Code",
-			"author": "Robert C. Martin",
-			"description": "A handbook of agile software craftsmanship that teaches writing clean and maintainable code.",
-			"category": "Tech",
-			"available_quantity": 5,
-			"image_url": "https://covers.openlibrary.org/b/id/9610923-L.jpg"
-		},
-		{
-			"id": 4,
-			"title": "The Pragmatic Programmer",
-			"author": "Andrew Hunt",
-			"description": "Classic book covering best practices and approaches to becoming a better programmer.",
-			"category": "Tech",
-			"available_quantity": 7,
-			"image_url": "https://covers.openlibrary.org/b/id/8099256-L.jpg"
-		},
-		{
-			"id": 5,
-			"title": "Sapiens",
-			"author": "Yuval Noah Harari",
-			"description": "Explores the history and evolution of humankind from ancient times to modern age.",
-			"category": "Science",
-			"available_quantity": 10,
-			"image_url": "https://covers.openlibrary.org/b/id/8370226-L.jpg"
-		},
-		{
-			"id": 6,
-			"title": "1984",
-			"author": "George Orwell",
-			"description": "A dystopian novel about totalitarian regime and constant surveillance.",
-			"category": "Story",
-			"available_quantity": 6,
-			"image_url": "https://covers.openlibrary.org/b/id/7222246-L.jpg"
-		},
-		{
-			"id": 7,
-			"title": "To Kill a Mockingbird",
-			"author": "Harper Lee",
-			"description": "A story of racial injustice and moral growth in the American South.",
-			"category": "Story",
-			"available_quantity": 9,
-			"image_url": "https://covers.openlibrary.org/b/id/8225261-L.jpg"
-		},
-		{
-			"id": 8,
-			"title": "Deep Work",
-			"author": "Cal Newport",
-			"description": "Discusses the importance of focused work in a distracted world.",
-			"category": "Science",
-			"available_quantity": 11,
-			"image_url": "https://covers.openlibrary.org/b/id/9259251-L.jpg"
-		},
-		{
-			"id": 9,
-			"title": "Introduction to Algorithms",
-			"author": "Thomas H. Cormen",
-			"description": "Comprehensive textbook covering a wide range of algorithms in computer science.",
-			"category": "Tech",
-			"available_quantity": 4,
-			"image_url": "https://covers.openlibrary.org/b/id/135182-L.jpg"
-		},
-		{
-			"id": 10,
-			"title": "The Great Gatsby",
-			"author": "F. Scott Fitzgerald",
-			"description": "A tragic story of wealth, love, and the American dream.",
-			"category": "Story",
-			"available_quantity": 13,
-			"image_url": "https://covers.openlibrary.org/b/id/7222276-L.jpg"
-		},
-		{
-			"id": 11,
-			"title": "A Brief History of Time",
-			"author": "Stephen Hawking",
-			"description": "Explains complex concepts about the universe in simple language.",
-			"category": "Science",
-			"available_quantity": 7,
-			"image_url": "https://covers.openlibrary.org/b/id/240726-L.jpg"
-		},
-		{
-			"id": 12,
-			"title": "You Don't Know JS",
-			"author": "Kyle Simpson",
-			"description": "A deep dive into JavaScript concepts and core mechanisms.",
-			"category": "Tech",
-			"available_quantity": 6,
-			"image_url": "https://covers.openlibrary.org/b/id/8091016-L.jpg"
-		}
-	],
-
 	"announcements": [
 		{
 			"id": 1,
@@ -164,6 +31,318 @@
 		{
 			"id": 8,
 			"text": "Popular Choice: Ikigai by Hector Garcia & Francesc Miralles"
+		}
+	],
+
+	"categories": [
+		{
+			"id": "01",
+			"category_name": "Story"
+		},
+		{
+			"id": "02",
+			"category_name": "Tech"
+		},
+		{
+			"id": "03",
+			"category_name": "Science"
+		},
+		{
+			"id": "04",
+			"category_name": "History"
+		},
+		{
+			"id": "05",
+			"category_name": "Self Development"
+		}
+	],
+
+	"books": [
+		{
+			"id": 1,
+			"title": "The Alchemist",
+			"author": "Paulo Coelho",
+			"description": "A philosophical story about a shepherd boy's journey to find treasure and discover his purpose.",
+			"category": "Story",
+			"category_id": "01",
+			"available_quantity": 12,
+			"image_url": "https://covers.openlibrary.org/b/id/8275261-L.jpg"
+		},
+
+		{
+			"id": 2,
+			"title": "Atomic Habits",
+			"author": "James Clear",
+			"description": "A practical guide on building good habits and breaking bad ones through small daily changes.",
+			"category": "Science",
+			"category_id": "03",
+			"available_quantity": 8,
+			"image_url": "https://covers.openlibrary.org/b/id/10594765-L.jpg"
+		},
+
+		{
+			"id": 3,
+			"title": "Clean Code",
+			"author": "Robert C. Martin",
+			"description": "A handbook of agile software craftsmanship that teaches writing clean and maintainable code.",
+			"category": "Tech",
+			"category_id": "02",
+			"available_quantity": 5,
+			"image_url": "https://covers.openlibrary.org/b/id/9610923-L.jpg"
+		},
+
+		{
+			"id": 4,
+			"title": "The Pragmatic Programmer",
+			"author": "Andrew Hunt",
+			"description": "Classic book covering best practices and approaches to becoming a better programmer.",
+			"category": "Tech",
+			"category_id": "02",
+			"available_quantity": 7,
+			"image_url": "https://covers.openlibrary.org/b/id/8099256-L.jpg"
+		},
+
+		{
+			"id": 5,
+			"title": "Sapiens",
+			"author": "Yuval Noah Harari",
+			"description": "Explores the history and evolution of humankind from ancient times to modern age.",
+			"category": "Science",
+			"category_id": "03",
+			"available_quantity": 10,
+			"image_url": "https://covers.openlibrary.org/b/id/8370226-L.jpg"
+		},
+
+		{
+			"id": 6,
+			"title": "1984",
+			"author": "George Orwell",
+			"description": "A dystopian novel about totalitarian regime and constant surveillance.",
+			"category": "Story",
+			"category_id": "01",
+			"available_quantity": 6,
+			"image_url": "https://covers.openlibrary.org/b/id/7222246-L.jpg"
+		},
+
+		{
+			"id": 7,
+			"title": "To Kill a Mockingbird",
+			"author": "Harper Lee",
+			"description": "A story of racial injustice and moral growth in the American South.",
+			"category": "Story",
+			"category_id": "01",
+			"available_quantity": 9,
+			"image_url": "https://covers.openlibrary.org/b/id/8225261-L.jpg"
+		},
+
+		{
+			"id": 8,
+			"title": "Deep Work",
+			"author": "Cal Newport",
+			"description": "Discusses the importance of focused work in a distracted world.",
+			"category": "Science",
+			"category_id": "03",
+			"available_quantity": 11,
+			"image_url": "https://covers.openlibrary.org/b/id/9259251-L.jpg"
+		},
+
+		{
+			"id": 9,
+			"title": "Introduction to Algorithms",
+			"author": "Thomas H. Cormen",
+			"description": "Comprehensive textbook covering a wide range of algorithms in computer science.",
+			"category": "Tech",
+			"category_id": "02",
+			"available_quantity": 4,
+			"image_url": "https://covers.openlibrary.org/b/id/135182-L.jpg"
+		},
+
+		{
+			"id": 10,
+			"title": "The Great Gatsby",
+			"author": "F. Scott Fitzgerald",
+			"description": "A tragic story of wealth, love, and the American dream.",
+			"category": "Story",
+			"category_id": "01",
+			"available_quantity": 13,
+			"image_url": "https://covers.openlibrary.org/b/id/7222276-L.jpg"
+		},
+
+		{
+			"id": 11,
+			"title": "A Brief History of Time",
+			"author": "Stephen Hawking",
+			"description": "Explains complex concepts about the universe in simple language.",
+			"category": "Science",
+			"category_id": "03",
+			"available_quantity": 7,
+			"image_url": "https://covers.openlibrary.org/b/id/240726-L.jpg"
+		},
+
+		{
+			"id": 12,
+			"title": "You Don't Know JS",
+			"author": "Kyle Simpson",
+			"description": "A deep dive into JavaScript concepts and core mechanisms.",
+			"category": "Tech",
+			"category_id": "02",
+			"available_quantity": 6,
+			"image_url": "https://covers.openlibrary.org/b/id/8091016-L.jpg"
+		}
+	],
+
+	"category": [
+		{
+			"id": "01",
+			"category_name": "Story",
+			"books": [
+				{
+					"id": 1,
+					"title": "The Alchemist",
+					"author": "Paulo Coelho",
+					"description": "A philosophical story about a shepherd boy's journey to find treasure and discover his purpose.",
+					"category": "Story",
+					"category_id": "01",
+					"available_quantity": 12,
+					"image_url": "https://covers.openlibrary.org/b/id/8275261-L.jpg"
+				},
+				{
+					"id": 6,
+					"title": "1984",
+					"author": "George Orwell",
+					"description": "A dystopian novel about totalitarian regime and constant surveillance.",
+					"category": "Story",
+					"category_id": "01",
+					"available_quantity": 6,
+					"image_url": "https://covers.openlibrary.org/b/id/7222246-L.jpg"
+				},
+				{
+					"id": 7,
+					"title": "To Kill a Mockingbird",
+					"author": "Harper Lee",
+					"description": "A story of racial injustice and moral growth in the American South.",
+					"category": "Story",
+					"category_id": "01",
+					"available_quantity": 9,
+					"image_url": "https://covers.openlibrary.org/b/id/8225261-L.jpg"
+				},
+				{
+					"id": 10,
+					"title": "The Great Gatsby",
+					"author": "F. Scott Fitzgerald",
+					"description": "A tragic story of wealth, love, and the American dream.",
+					"category": "Story",
+					"category_id": "01",
+					"available_quantity": 13,
+					"image_url": "https://covers.openlibrary.org/b/id/7222276-L.jpg"
+				}
+			]
+		},
+
+		{
+			"id": "02",
+			"category_name": "Tech",
+			"books": [
+				{
+					"id": 3,
+					"title": "Clean Code",
+					"author": "Robert C. Martin",
+					"description": "A handbook of agile software craftsmanship that teaches writing clean and maintainable code.",
+					"category": "Tech",
+					"category_id": "02",
+					"available_quantity": 5,
+					"image_url": "https://covers.openlibrary.org/b/id/9610923-L.jpg"
+				},
+				{
+					"id": 4,
+					"title": "The Pragmatic Programmer",
+					"author": "Andrew Hunt",
+					"description": "Classic book covering best practices and approaches to becoming a better programmer.",
+					"category": "Tech",
+					"category_id": "02",
+					"available_quantity": 7,
+					"image_url": "https://covers.openlibrary.org/b/id/8099256-L.jpg"
+				},
+				{
+					"id": 9,
+					"title": "Introduction to Algorithms",
+					"author": "Thomas H. Cormen",
+					"description": "Comprehensive textbook covering a wide range of algorithms in computer science.",
+					"category": "Tech",
+					"category_id": "02",
+					"available_quantity": 4,
+					"image_url": "https://covers.openlibrary.org/b/id/135182-L.jpg"
+				},
+				{
+					"id": 12,
+					"title": "You Don't Know JS",
+					"author": "Kyle Simpson",
+					"description": "A deep dive into JavaScript concepts and core mechanisms.",
+					"category": "Tech",
+					"category_id": "02",
+					"available_quantity": 6,
+					"image_url": "https://covers.openlibrary.org/b/id/8091016-L.jpg"
+				}
+			]
+		},
+
+		{
+			"id": "03",
+			"category_name": "Science",
+			"books": [
+				{
+					"id": 2,
+					"title": "Atomic Habits",
+					"author": "James Clear",
+					"description": "A practical guide on building good habits and breaking bad ones through small daily changes.",
+					"category": "Science",
+					"category_id": "03",
+					"available_quantity": 8,
+					"image_url": "https://covers.openlibrary.org/b/id/10594765-L.jpg"
+				},
+				{
+					"id": 5,
+					"title": "Sapiens",
+					"author": "Yuval Noah Harari",
+					"description": "Explores the history and evolution of humankind from ancient times to modern age.",
+					"category": "Science",
+					"category_id": "03",
+					"available_quantity": 10,
+					"image_url": "https://covers.openlibrary.org/b/id/8370226-L.jpg"
+				},
+				{
+					"id": 8,
+					"title": "Deep Work",
+					"author": "Cal Newport",
+					"description": "Discusses the importance of focused work in a distracted world.",
+					"category": "Science",
+					"category_id": "03",
+					"available_quantity": 11,
+					"image_url": "https://covers.openlibrary.org/b/id/9259251-L.jpg"
+				},
+				{
+					"id": 11,
+					"title": "A Brief History of Time",
+					"author": "Stephen Hawking",
+					"description": "Explains complex concepts about the universe in simple language.",
+					"category": "Science",
+					"category_id": "03",
+					"available_quantity": 7,
+					"image_url": "https://covers.openlibrary.org/b/id/240726-L.jpg"
+				}
+			]
+		},
+
+		{
+			"id": "04",
+			"category_name": "History",
+			"books": []
+		},
+
+		{
+			"id": "05",
+			"category_name": "Self Development",
+			"books": []
 		}
 	]
 }
