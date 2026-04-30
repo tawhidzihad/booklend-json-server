@@ -37,23 +37,23 @@
 	"categories": [
 		{
 			"id": "01",
-			"category_name": "Story"
+			"category_name": "Select Category"
 		},
 		{
 			"id": "02",
-			"category_name": "Tech"
+			"category_name": "Story"
 		},
 		{
 			"id": "03",
-			"category_name": "Science"
+			"category_name": "Tech"
 		},
 		{
 			"id": "04",
-			"category_name": "History"
+			"category_name": "Science"
 		},
 		{
 			"id": "05",
-			"category_name": "Self Development"
+			"category_name": "History"
 		}
 	],
 
@@ -64,7 +64,6 @@
 			"author": "Paulo Coelho",
 			"description": "A philosophical story about a shepherd boy's journey to find treasure and discover his purpose.",
 			"category": "Story",
-			"category_id": "01",
 			"available_quantity": 12,
 			"image_url": "https://covers.openlibrary.org/b/id/8275261-L.jpg"
 		},
@@ -75,7 +74,6 @@
 			"author": "James Clear",
 			"description": "A practical guide on building good habits and breaking bad ones through small daily changes.",
 			"category": "Science",
-			"category_id": "03",
 			"available_quantity": 8,
 			"image_url": "https://covers.openlibrary.org/b/id/10594765-L.jpg"
 		},
@@ -86,7 +84,6 @@
 			"author": "Robert C. Martin",
 			"description": "A handbook of agile software craftsmanship that teaches writing clean and maintainable code.",
 			"category": "Tech",
-			"category_id": "02",
 			"available_quantity": 5,
 			"image_url": "https://covers.openlibrary.org/b/id/9610923-L.jpg"
 		},
@@ -97,7 +94,6 @@
 			"author": "Andrew Hunt",
 			"description": "Classic book covering best practices and approaches to becoming a better programmer.",
 			"category": "Tech",
-			"category_id": "02",
 			"available_quantity": 7,
 			"image_url": "https://covers.openlibrary.org/b/id/8099256-L.jpg"
 		},
@@ -108,7 +104,6 @@
 			"author": "Yuval Noah Harari",
 			"description": "Explores the history and evolution of humankind from ancient times to modern age.",
 			"category": "Science",
-			"category_id": "03",
 			"available_quantity": 10,
 			"image_url": "https://covers.openlibrary.org/b/id/8370226-L.jpg"
 		},
@@ -119,7 +114,6 @@
 			"author": "George Orwell",
 			"description": "A dystopian novel about totalitarian regime and constant surveillance.",
 			"category": "Story",
-			"category_id": "01",
 			"available_quantity": 6,
 			"image_url": "https://covers.openlibrary.org/b/id/7222246-L.jpg"
 		},
@@ -130,7 +124,6 @@
 			"author": "Harper Lee",
 			"description": "A story of racial injustice and moral growth in the American South.",
 			"category": "Story",
-			"category_id": "01",
 			"available_quantity": 9,
 			"image_url": "https://covers.openlibrary.org/b/id/8225261-L.jpg"
 		},
@@ -141,7 +134,6 @@
 			"author": "Cal Newport",
 			"description": "Discusses the importance of focused work in a distracted world.",
 			"category": "Science",
-			"category_id": "03",
 			"available_quantity": 11,
 			"image_url": "https://covers.openlibrary.org/b/id/9259251-L.jpg"
 		},
@@ -152,7 +144,6 @@
 			"author": "Thomas H. Cormen",
 			"description": "Comprehensive textbook covering a wide range of algorithms in computer science.",
 			"category": "Tech",
-			"category_id": "02",
 			"available_quantity": 4,
 			"image_url": "https://covers.openlibrary.org/b/id/135182-L.jpg"
 		},
@@ -163,7 +154,6 @@
 			"author": "F. Scott Fitzgerald",
 			"description": "A tragic story of wealth, love, and the American dream.",
 			"category": "Story",
-			"category_id": "01",
 			"available_quantity": 13,
 			"image_url": "https://covers.openlibrary.org/b/id/7222276-L.jpg"
 		},
@@ -174,7 +164,6 @@
 			"author": "Stephen Hawking",
 			"description": "Explains complex concepts about the universe in simple language.",
 			"category": "Science",
-			"category_id": "03",
 			"available_quantity": 7,
 			"image_url": "https://covers.openlibrary.org/b/id/240726-L.jpg"
 		},
@@ -185,7 +174,6 @@
 			"author": "Kyle Simpson",
 			"description": "A deep dive into JavaScript concepts and core mechanisms.",
 			"category": "Tech",
-			"category_id": "02",
 			"available_quantity": 6,
 			"image_url": "https://covers.openlibrary.org/b/id/8091016-L.jpg"
 		}
